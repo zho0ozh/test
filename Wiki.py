@@ -9,7 +9,7 @@ html=urlopen("http://www.meizitu.com")
 soup =BeautifulSoup(html,"html.parser")
 
 cishu=0
-targetPath = "H:\\Codepage\\img"
+targetPath = "D:\\Codepage\\img"
 
 def saveFile(path):
     #检测当前路径的有效性
